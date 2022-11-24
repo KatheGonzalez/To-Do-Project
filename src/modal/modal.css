@@ -1,0 +1,12 @@
+.modal_estilos{
+    background: rgb(244, 172, 183, 0.8);
+    position: fixed;
+    top: 20%;
+    left: 30%;
+    right: 30%;
+    bottom: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

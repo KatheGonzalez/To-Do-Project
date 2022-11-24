@@ -1,0 +1,71 @@
+form{
+    width: 90%;
+    max-width: 300px;
+    background-color: rgb(244, 172, 183, 0.6);
+    padding: 33px 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+label {
+    text-align: center;
+    color: #d8e2dc;
+    font-weight: 600;
+    letter-spacing: 8px;
+    font-size: 25px;
+    padding-bottom: 15px;
+  }
+  
+  textarea {
+    background-color: rgb(255, 255, 255, 0.6);
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 5px 50px rgba(255, 255, 255, 0.30);
+    color: #1E1E1F;
+    font-size: 20px;
+    text-align: center;
+    padding: 12px;
+    height: 96px;
+    width: calc(100%-25px);
+  }
+  
+  textarea::placeholder {
+  color: #8f8e8e;
+  }
+  
+  textarea:focus {
+    outline-color: #d8e2dc;
+    box-shadow: 0px 5px 30px #d8e2dc;
+  }
+  
+  .TodoForm-buttonContainer {
+    margin-top: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .TodoForm-button {
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    color: #d8e2dc;
+    font-weight: 400;
+    letter-spacing: 4px;
+    font-size: 20px;
+    width: 120px;
+    height: 48px;
+    border-radius: 5px;
+    background-color: rgb(157, 129, 137, 0.5);
+    box-shadow: 0px 5px 25px rgb(157, 129, 137, 0.3);
+    border: none;
+  }
+
+  .TodoForm-button:hover{
+    border: 2px solid rgb(255, 255, 255, 0.4);;
+  }
+  

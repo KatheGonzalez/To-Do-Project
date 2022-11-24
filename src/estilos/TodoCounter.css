@@ -1,0 +1,20 @@
+.TodoCounter_Title{
+    text-align: center;
+    color: #d8e2dc;
+    font-weight: 600;
+    letter-spacing: 8px;
+    font-size: 35px;
+    padding-top: 20px;
+}
+
+.TodoCounter{
+    font-size: 25px;
+    text-align: center;
+    color: black;
+    font-weight: 200;
+    margin: 15px;
+}
+
+.TodoCounter--loading{
+    opacity: 25%;
+}
